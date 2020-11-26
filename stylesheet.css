@@ -80,3 +80,9 @@ pre {
 .token-punctuation{
     color: #72e0d1;
 }
+.coder-image{
+    
+    max-width: 100%;
+    background-size: contain;
+    position: relative; 
+}
