@@ -1,3 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+:root{
+    --primary-color: #34D399;
+    --grid-gap: 2.09vw;
+    --gray: #838383;
+    --websiteWidth: 1440;
+    --bodyContainerWidth: calc(117000vw/var(--websiteWidth));
+    --spacing01: calc(37000vw/var(--websiteWidth));
+    --spacing02: calc(52500vw/var(--websiteWidth));
+    --spacing03: calc(66000vw/var(--websiteWidth));
+    --spacing04: calc(20800vw/var(--websiteWidth));
+    --spacing05: calc(26000vw/var(--websiteWidth));
+    --spacing06: calc(8000vw/var(--websiteWidth));
+    --spacing07: calc(3400vw/var(--websiteWidth));
+    --spacing08: calc(43400vw/var(--websiteWidth));
+    --spacing09: calc(14400vw/var(--websiteWidth));
+    --spacing10: calc(19700vw/var(--websiteWidth));
+    --spacing11: calc(26200vw/var(--websiteWidth));
+    --spacing12: calc(54500vw/var(--websiteWidth));
+    --spacing13: calc(82900vw/var(--websiteWidth));
+    --spacing14: calc(117200vw/var(--websiteWidth));
+    --spacing15: calc(165800vw/var(--websiteWidth));
+    --spacing16: calc(12500vw/var(--websiteWidth));
+    --spacing17: calc(10500vw/var(--websiteWidth));
+    --spacing18: calc(10300vw/var(--websiteWidth));
+}
+
 body{
-    color: black;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #000;
+}
+h1{
+    color: var(--primary-color,white);
+}
+@media (min-width: 600px)
+.Header_container__1U9KN {
+    
+    font-size: 1.32vw;
+}
+.Header_container__1U9KN {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.Header_container__1U9KN a[data-current=true] {
+    background-color: #fff;
+    color: #000;
+}
+@media (min-width: 600px)
+.Header_container__1U9KN a {
+    margin-right: 1.04vw;
+    padding: .49vw 1.39vw;
+}
+.Header_container__1U9KN a {
+    display: inline-block;
+    position: relative;
+    
+    border: 2px solid #fff;
+    -moz-box-sizing: border-box;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    text-decoration: none;
+    margin: 2rem 0.5rem;
+    padding: 0.5rem;
+    transition: all .1s ease-out;
+}
+.Header_container__1U9KN a:hover {
+    transform: scale(1.1);
+}
+
+.GridTemplates_videoWrapper__17Bxz {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.GridTemplates_blockContent__2aAxA {
+    width: 50%;
+    height: 20rem;
+    
+    object-fit: contain;
+
 }
