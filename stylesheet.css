@@ -28,6 +28,7 @@
 body{
     font-family: 'Space Grotesk', sans-serif;
     background-color: #000;
+    color: white;
 }
 h1{
     color: var(--primary-color,white);
@@ -45,19 +46,21 @@ h1{
     z-index: 1;
     text-align: center;
 }
+@media (min-width: 600px)
+.Header_container__1U9KN a {
+    margin-right: 1.04vw;
+    /* padding: 49vw 1.39vw; */
+    background-color: black;
+    text-color: white;
+}
 .Header_container__1U9KN a[data-current=true] {
     background-color: #fff;
     color: #000;
 }
-@media (min-width: 600px)
-.Header_container__1U9KN a {
-    margin-right: 1.04vw;
-    padding: .49vw 1.39vw;
-}
+
 .Header_container__1U9KN a {
     display: inline-block;
     position: relative;
-    
     border: 2px solid #fff;
     -moz-box-sizing: border-box;
     background-color: black;
@@ -68,7 +71,31 @@ h1{
     padding: 0.5rem;
     transition: all .1s ease-out;
 }
+
 .Header_container__1U9KN a:hover {
     transform: scale(1.1);
 }
-
+code {
+    font-family: Operator Mono A,Operator Mono B,Source Code Pro,Menlo,Consolas,Monaco,monospace;
+}
+.language-css{
+    color: #f5d67b;
+}
+pre {
+    font-family: Operator Mono A,Operator Mono B,Source Code Pro,Menlo,Consolas,Monaco,monospace;
+    clear: both;
+    background: rgba(32,28,41,.75);
+    padding: 0;
+    tab-size: 2;
+    word-break: normal;
+    hyphens: none;
+    position: relative;
+    line-height: 28px;
+    border-radius: 8px;
+    min-width: 100px;
+    max-width: 100%;
+    overflow: hidden;
+}
+.wp-block-buttons, figure, p, pre {
+    margin: 0 0 1.5rem;
+}
