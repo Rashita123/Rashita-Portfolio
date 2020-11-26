@@ -55,6 +55,7 @@ h1{
 }
 code {
     font-family: Operator Mono A,Operator Mono B,Source Code Pro,Menlo,Consolas,Monaco,monospace;
+    position: relative;
 }
 .language-css{
     color: #f5d67b;
@@ -81,10 +82,10 @@ pre {
     color: #72e0d1;
 }
 .coder-image{
-    
+   
     max-width: 100%;
-    /* background-size: cover;
+    background-size: cover;
     position: relative;
-    margin: auto;  */
+    margin: auto; 
     height: auto;
 }
