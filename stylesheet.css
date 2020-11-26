@@ -83,6 +83,8 @@ pre {
 .coder-image{
     
     max-width: 100%;
-    background-size: contain;
-    position: relative; 
+    /* background-size: cover;
+    position: relative;
+    margin: auto;  */
+    height: auto;
 }
