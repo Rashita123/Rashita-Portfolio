@@ -8,9 +8,7 @@ body{
     background-color: #000;
     color: white;
 }
-h1{
-    color: var(--primary-color,white);
-}
+
 @media (min-width: 600px)
 .Header_container__1U9KN {
     
@@ -88,4 +86,12 @@ pre {
     position: relative;
     margin: auto; 
     height: auto;
+}
+
+.about-us-heading{
+    color: white;
+    text-align: center;
+}
+.about-us-paragraph{
+    text-align: center;
 }
