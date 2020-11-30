@@ -79,13 +79,18 @@ pre {
 .token-punctuation{
     color: #72e0d1;
 }
-.coder-image{
+
+.link-active{
+    font-weight: bold;
+}
+
+
+ pre .coder-image{
    
-    max-width: 100%;
-    background-size: cover;
-    position: relative;
+    max-width: 600px;
+    display: block;
     margin: auto; 
-    height: auto;
+    
 }
 
 .about-us-heading{
@@ -96,10 +101,14 @@ pre {
     position: relative;
     
 }
-.about-us-paragraph{
-    text-align: center;
-    max-width: 100%;
-    position: relative;
-    height: auto;
+.heading-text{
+    max-width: 400px;
     margin: auto;
+}
+.about-us-paragraph{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 600px;
+    margin: auto;
+    position: relative;
 }
