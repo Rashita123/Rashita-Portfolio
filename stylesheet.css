@@ -51,18 +51,44 @@ body{
 .Header_container__1U9KN a:hover {
     transform: scale(1.1);
 }
+
+
+.wp-block-buttons, figure, p, pre {
+    margin: 0 0 1.5rem;
+}
+
+
+.link-active{
+    font-weight: bold;
+}
+
+/* Nav buttons part done */
+
+/* ...................................... */
+
+/* Image and Code part start */
+pre h3{
+    float: right;
+    padding: 0rem 10rem;
+    font-size: 1.6rem;
+    color: white;
+}
 code {
     font-family: Operator Mono A,Operator Mono B,Source Code Pro,Menlo,Consolas,Monaco,monospace;
     position: relative;
     float: right;
+    font-size: large;
     padding-right: 20rem;
+    
+}
+.token-punctuation{
+    color: #72e0d1;
 }
 .language-css{
     color: #f5d67b;
 }
 pre {
     font-family: Operator Mono A,Operator Mono B,Source Code Pro,Menlo,Consolas,Monaco,monospace;
-    clear: both;
     background: rgba(32,28,41,.75);
     padding: 0;
     tab-size: 2;
@@ -75,16 +101,7 @@ pre {
     max-width: 100%;
     overflow: hidden;
 }
-.wp-block-buttons, figure, p, pre {
-    margin: 0 0 1.5rem;
-}
-.token-punctuation{
-    color: #72e0d1;
-}
 
-.link-active{
-    font-weight: bold;
-}
 
 
  pre .coder-image{
@@ -93,25 +110,25 @@ pre {
     max-width: 500px;
     display: block;
     margin: auto; 
-    
+    padding-top: 3rem;
+    padding-bottom: 1rem;
 }
 
-.about-us-heading{
-    color: white;
+/* Image and code part Done */
+
+/* ........................................ */
+
+/* About Us section  start*/
+
+.about-us-section{
+   
     text-align: center;
-    max-width: 100%;
-    height: auto;
-    position: relative;
+}
+
+pre .heading-text{
+    text-align: center;
     
 }
-.heading-text{
-    max-width: 400px;
-    margin: auto;
-}
-.about-us-paragraph{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    max-width: 600px;
-    margin: auto;
-    position: relative;
+pre p{
+    text-align: left;
 }
