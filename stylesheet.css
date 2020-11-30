@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
 :root{
     --primary-color: #34D399;
+    --bg-color1: rgba(32,28,41,.75);
 }
 
 body{
@@ -120,15 +121,32 @@ pre {
 
 /* About Us section  start*/
 
-.about-us-section{
-   
-    text-align: center;
-}
 
-pre .heading-text{
-    text-align: center;
+.about-us-section{
+    
+    border-radius: 8px;
     
 }
-pre p{
-    text-align: left;
+.about-us-section .container{
+    text-align: center;
+    padding: 2rem;
+}
+.about-us-section .container-center{
+    max-width: 600px;
+    margin: auto;
+}
+.about-us-section .container p{
+    font-size: large;
+}
+
+/* About Me section Complete */
+
+.section-3-projects{
+    background-color: var(--bg-color1);
+}
+
+
+.section-3-projects h1{
+    padding: 1rem 1rem;
+    text-align: center;
 }
