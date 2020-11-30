@@ -54,6 +54,8 @@ body{
 code {
     font-family: Operator Mono A,Operator Mono B,Source Code Pro,Menlo,Consolas,Monaco,monospace;
     position: relative;
+    float: right;
+    padding-right: 20rem;
 }
 .language-css{
     color: #f5d67b;
@@ -86,8 +88,9 @@ pre {
 
 
  pre .coder-image{
-   
-    max-width: 600px;
+    padding-left: 10rem;
+    float: left;
+    max-width: 500px;
     display: block;
     margin: auto; 
     
