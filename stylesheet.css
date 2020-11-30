@@ -2,6 +2,7 @@
 :root{
     --primary-color: #34D399;
     --bg-color1: rgba(32,28,41,.75);
+    --heading-color:#f5d67b;
 }
 
 body{
@@ -127,12 +128,16 @@ pre {
     border-radius: 8px;
     
 }
+
+.about-us-section h1{
+    color: var(--heading-color);
+}
 .about-us-section .container{
     text-align: center;
     padding: 2rem;
 }
 .about-us-section .container-center{
-    max-width: 600px;
+    max-width: 500px;
     margin: auto;
 }
 .about-us-section .container p{
@@ -146,7 +151,23 @@ pre {
 }
 
 
-.section-3-projects h1{
+
+.section-3-projects h1, h3{
     padding: 1rem 1rem;
     text-align: center;
+    color: var(--heading-color);
+}
+
+.section-3-projects .container{
+    text-align: center;
+    padding: 0rem 2rem;
+}
+.section-3-projects li link{
+    text-decoration: none;
+
+}
+
+.section-3-projects .container-center{
+    max-width: 500px;
+    margin: auto;
 }
