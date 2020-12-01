@@ -154,6 +154,7 @@ pre {
 
 .section-3-projects{
     background-color: var(--bg-color1);
+    border-radius: 8px;
 }
 
 
@@ -191,12 +192,14 @@ a:hover {
     background-color: var(--primary-color);
     border-radius: 8px;
     padding: 0.5rem 1rem;
+    color: black;
 }
 
 .section-3-projects .secondary-link{
     border: 0.5px solid var(--primary-color);
     padding: 0.5rem 1rem;
     border-radius: 8px;
+    color: white;
 }
 
 /* projects section ended */
@@ -204,5 +207,27 @@ a:hover {
 /* Blog section started */
 
 .blog-div{
-    background-color: var(--primary-color);
+    background-color: #6C63FF;;
+    border-radius: 8px;
+}
+
+.blog-div .container{
+    text-align: center;
+    padding: 2rem;
+}
+
+.blog-div .container-center{
+    max-width: 500px;
+    margin: auto;
+}
+
+.blog-div h1{
+    color: var(--heading-color);
+}
+
+.blog-div .primary-link{
+    background-color: var(--heading-color);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    color: black;
 }
