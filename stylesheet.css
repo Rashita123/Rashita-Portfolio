@@ -144,6 +144,12 @@ pre {
     font-size: large;
 }
 
+.about-us-section .container .primary-link{
+    background-color: var(--heading-color);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    color: black;
+}
 /* About Me section Complete */
 
 .section-3-projects{
@@ -161,7 +167,7 @@ pre {
 .section-3-projects .container{
     text-align: center;
     padding: 0rem 2rem;
-}
+}   
 .section-3-projects li link{
     text-decoration: none;
 
@@ -170,4 +176,25 @@ pre {
 .section-3-projects .container-center{
     max-width: 500px;
     margin: auto;
+}
+a:link{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+.section-3-projects .primary-link{
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+}
+
+.section-3-projects .secondary-link{
+    border: 0.5px solid var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
 }
