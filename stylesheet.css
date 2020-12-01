@@ -195,6 +195,7 @@ a:hover {
     background-color: var(--heading-color);
     border-radius: 8px;
     padding: 0.5rem 1rem;
+    margin-right: 1rem;
     color: black;
 }
 
