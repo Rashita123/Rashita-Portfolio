@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
 :root{
-    --primary-color: #34D399;
+    --primary-color: #6C63FF;
     --bg-color1: rgba(32,28,41,.75);
     --heading-color:#f5d67b;
 }
@@ -52,6 +52,7 @@ body{
 
 .Header_container__1U9KN a:hover {
     transform: scale(1.1);
+    text-decoration: none;
 }
 
 
@@ -189,14 +190,14 @@ a:hover {
 
 
 .section-3-projects .primary-link{
-    background-color: var(--primary-color);
+    background-color: var(--heading-color);
     border-radius: 8px;
     padding: 0.5rem 1rem;
     color: black;
 }
 
 .section-3-projects .secondary-link{
-    border: 0.5px solid var(--primary-color);
+    border: 0.5px solid var(--heading-color);
     padding: 0.5rem 1rem;
     border-radius: 8px;
     color: white;
@@ -207,7 +208,7 @@ a:hover {
 /* Blog section started */
 
 .blog-div{
-    background-color: #6C63FF;;
+    background-color: #6C63FF;
     border-radius: 8px;
 }
 
