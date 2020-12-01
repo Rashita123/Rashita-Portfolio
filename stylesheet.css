@@ -164,10 +164,11 @@ pre {
     padding: 1rem 1rem;
     text-align: center;
     color: var(--heading-color);
+    font-size: x-large;
 }
 
 .section-3-projects .container{
-    text-align: center;
+    
     padding: 0rem 2rem;
 }   
 .section-3-projects li link{
@@ -178,6 +179,7 @@ pre {
 .section-3-projects .container-center{
     max-width: 500px;
     margin: auto;
+    text-align: center;
 }
 a:link{
     text-decoration: none;
