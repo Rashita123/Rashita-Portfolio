@@ -238,3 +238,8 @@ a:hover {
     padding: 0.5rem 1rem;
     color: black;
 }
+
+.blog .secondary-link:hover{
+    background-color: var(--heading-color);
+    color: black;
+}
