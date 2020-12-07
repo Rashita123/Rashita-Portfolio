@@ -156,7 +156,7 @@ pre {
 .section-3-projects{
     background-color: var(--bg-color1);
     border-radius: 8px;
-    margin: 1rem;
+    margin: 1rem 0rem;
     padding: 1rem;
 
 }
