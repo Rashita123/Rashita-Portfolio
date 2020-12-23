@@ -84,6 +84,13 @@ code {
     padding-right: 20rem;
     
 }
+.coder-image{
+    float: left;
+}
+
+.code-part{
+    float: right;
+}
 .token-punctuation{
     color: #72e0d1;
 }
@@ -259,3 +266,4 @@ a:hover {
     padding: 10px;
     list-style-type: none;
 }
+    
