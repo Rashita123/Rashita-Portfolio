@@ -11,26 +11,15 @@ body{
     color: white;
 }
 
-@media (min-width: 600px)
-.Header_container__1U9KN {
-    
-    font-size: 1.32vw;
-}
+
 .Header_container__1U9KN {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    z-index: 1;
     text-align: center;
 }
-@media (min-width: 600px)
-.Header_container__1U9KN a {
-    margin-right: 1.04vw;
-    /* padding: 49vw 1.39vw; */
-    background-color: black;
-    text-color: white;
-}
+
 .Header_container__1U9KN a[data-current=true] {
     background-color: #fff;
     color: #000;
@@ -40,7 +29,6 @@ body{
     display: inline-block;
     position: relative;
     border: 2px solid #fff;
-    -moz-box-sizing: border-box;
     background-color: black;
     color: white;
     border-radius: 100px;
@@ -56,10 +44,6 @@ body{
 }
 
 
-.wp-block-buttons, figure, p, pre {
-    margin: 0 0 1.5rem;
-}
-
 
 .link-active{
     font-weight: bold;
@@ -70,6 +54,12 @@ body{
 /* ...................................... */
 
 /* Image and Code part start */
+pre {
+    margin: 0 0 1.5rem;
+}
+
+
+
 pre h3{
     float: right;
     padding: 0rem 10rem;
@@ -107,7 +97,6 @@ pre {
     position: relative;
     line-height: 28px;
     border-radius: 8px;
-    min-width: 100px;
     max-width: 100%;
     overflow: hidden;
 }
